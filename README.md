@@ -20,7 +20,7 @@ This is a shell to chane the content of files,I write this in order to change th
 	2. directories 
 	
 		~~~
-		./MagicShell /Users/Downloads/testHashDirectory1 ./MagicShell /Users/Downloads/testHashDirectory1
+		./MagicShell /Users/Downloads/testHashDirectory1 ./MagicShell /Users/Downloads/testHashDirectory2
 		~~~
 	3. a single file 
 	
