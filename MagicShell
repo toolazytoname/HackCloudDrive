@@ -7,7 +7,7 @@
 # 使用方法：(1)把脚本下载到本地
 #         (2) chmod +x MagicShell
 #         (3) 可以传入一个路径 ./MagicShell /Users/Downloads/testHashDirectory
-#         (4) 可以传入多个路径 ./MagicShell /Users/Downloads/testHashDirectory1 ./MagicShell /Users/Downloads/testHashDirectory1
+#         (4) 可以传入多个路径 ./MagicShell /Users/Downloads/testHashDirectory1 ./MagicShell /Users/Downloads/testHashDirectory2
 #         (5) 也可以传入单个文件  ./MagicShell   /Users/Downloads/testHash/file1.txt
 #         (6) 也可以传入多个文件  ./MagicShell   /Users/Downloads/testHash/file1.txt /Users/Downloads/testHash/file2.txt
 # 特色：批量修改内容，方便快捷。
