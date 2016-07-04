@@ -21,9 +21,11 @@ function walk()
     if [ -d $path ]
      then
       echo "DIR $path"
+      #如果是路径，则递归调用
       walk $path
     else
       echo "FILE $path"
+      #如果是文件，则处理
       echo "A" >> $path
     fi
   done
@@ -48,13 +50,3 @@ for args in $@
 do
   checkInput $args
 done
-
-function comment()
-{
-  if [ $# -ne 1 ]
-  then
-    echo "USAGE: $0 TOP_DIR"
-  else
-    walk $1
-  fi
-}
