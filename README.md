@@ -1,12 +1,40 @@
 # HackCloudDrive
-Use a shell to change the content of files in a Directory.
+Use a shell to change the content of files.
 
-#--------------------------------------------
-# 这是一个批量修改文件内容的脚本，书写的目的是为了改变文件内容的哈希值，主要用于“你懂的”领域，目前还没有想到别的应用场景。
-# 递归代码参考 http://yejinxin.github.io/scripts-to-traverse-folder-recursively/
+#Why I write this shell
+This is a shell to chane the content of files,I write this in order to change the Hash of files in *** field.
 
-# 使用方法：(1)把脚本下载到本地
-#         (2) chmod +x MagicShell
-#         (3) ./MagicShell /Users/Downloads/testHash
-# 特色：批量修改内容，方便快捷。
-#--------------------------------------------
+# reference
+[scripts-to-traverse-folder-recursively]( http://yejinxin.github.io/scripts-to-traverse-folder-recursively/)
+
+# how to use
+1. Download the MagicShell shell 
+2. chmod +x MagicShell
+3. The parameter input can be 
+	1. 	a directory
+	 
+	 ~~~ 
+	 ./MagicShell /Users/Downloads/testHash
+	 ~~~
+	 
+	2. directories 
+	
+		~~~
+		./MagicShell /Users/Downloads/testHashDirectory1 ./MagicShell /Users/Downloads/testHashDirectory1
+		~~~
+	3. a single file 
+	
+		~~~ 
+		./MagicShell   /Users/Downloads/testHash/		file1.txt
+		~~~
+	4. files 
+	
+		~~~
+		./MagicShell   /Users/Downloads/testHash/file1.txt /Users/Downloads/testHash/file2.txt
+		~~~
+ 		
+
+#at last
+Those who do not understand UNIX are condemned to reinvent it, poorly.
+
+—Henry Spencer
