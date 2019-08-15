@@ -1,7 +1,7 @@
 # HackCloudDrive
 Use a shell to change the content of files.
 
-#Why I write this shell
+# Why I write this shell
 This is a shell to chane the content of files,I write this in order to change the Hash of files in *** field.
 
 # reference
@@ -34,7 +34,7 @@ This is a shell to chane the content of files,I write this in order to change th
 		~~~
  		
 
-#at last
+# at last
 Those who do not understand UNIX are condemned to reinvent it, poorly.
 
 —Henry Spencer
